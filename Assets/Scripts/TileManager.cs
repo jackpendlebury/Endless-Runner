@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class TileManager : MonoBehaviour {
-	
+
+	public int pickupRate;
 	public GameObject[] tilePrefabs;
 	public GameObject currentTile;
 
@@ -86,5 +87,15 @@ public class TileManager : MonoBehaviour {
 			tmp.transform.position = currentTile.transform.GetChild(0).transform.GetChild(randomTile).position;
 			currentTile = tmp;
 		} 
+
+		int spawnPickup = Random.Range(0 , pickupRate);
+
+		if(spawnPickup == 0){
+			currentTile.transform.GetChild(1).gameObject.SetActive(true);
+		}
+	}
+
+	public void ResetGame(){
+		Application.LoadLevel(Application.loadedLevel);
 	}
 }

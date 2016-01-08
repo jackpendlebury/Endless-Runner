@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 6be7fa0fabd14654995f1620122cda62
+timeCreated: 1452290271
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_R
+    100004: Armature
+    100006: ArmIK_L
+    100008: ArmIK_R
+    100010: Cube
+    100012: ElbowTarget_L
+    100014: ElbowTarget_R
+    100016: Hand_L
+    100018: Hand_R
+    100020: Head
+    100022: Hip_L
+    100024: Hip_R
+    100026: KneeTarget_L
+    100028: KneeTarget_R
+    100030: LegIK_L
+    100032: LegIK_R
+    100034: Master
+    100036: Neck
+    100038: Shin_L
+    100040: Shin_R
+    100042: Shoulder_L
+    100044: Shoulder_R
+    100046: Spine1
+    100048: Spine2
+    100050: Spine3
+    100052: Spine4
+    100054: //RootNode
+    100056: Thigh_L
+    100058: Thigh_R
+    400000: Arm_L
+    400002: Arm_R
+    400004: Armature
+    400006: ArmIK_L
+    400008: ArmIK_R
+    400010: Cube
+    400012: ElbowTarget_L
+    400014: ElbowTarget_R
+    400016: Hand_L
+    400018: Hand_R
+    400020: Head
+    400022: Hip_L
+    400024: Hip_R
+    400026: KneeTarget_L
+    400028: KneeTarget_R
+    400030: LegIK_L
+    400032: LegIK_R
+    400034: Master
+    400036: Neck
+    400038: Shin_L
+    400040: Shin_R
+    400042: Shoulder_L
+    400044: Shoulder_R
+    400046: Spine1
+    400048: Spine2
+    400050: Spine3
+    400052: Spine4
+    400054: //RootNode
+    400056: Thigh_L
+    400058: Thigh_R
+    4300000: Cube
+    7400000: Default Take
+    7400002: SitckMan_Idle
+    7400004: StickMan_Run
+    7400006: SitckMan_Idle0
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: Cube
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SitckMan_Idle0
+      takeName: SitckMan_Idle
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmIK_L
+        weight: 1
+      - path: Armature/ArmIK_R
+        weight: 1
+      - path: Armature/LegIK_L
+        weight: 1
+      - path: Armature/LegIK_R
+        weight: 1
+      - path: Armature/Master
+        weight: 1
+      - path: Armature/Master/ElbowTarget_L
+        weight: 1
+      - path: Armature/Master/ElbowTarget_R
+        weight: 1
+      - path: Armature/Master/Hip_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Master/Hip_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Master/KneeTarget_L
+        weight: 1
+      - path: Armature/Master/KneeTarget_R
+        weight: 1
+      - path: Armature/Master/Spine4
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck/Head
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SitckMan_Idle
+      takeName: SitckMan_Idle
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmIK_L
+        weight: 1
+      - path: Armature/ArmIK_R
+        weight: 1
+      - path: Armature/LegIK_L
+        weight: 1
+      - path: Armature/LegIK_R
+        weight: 1
+      - path: Armature/Master
+        weight: 1
+      - path: Armature/Master/ElbowTarget_L
+        weight: 1
+      - path: Armature/Master/ElbowTarget_R
+        weight: 1
+      - path: Armature/Master/Hip_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Master/Hip_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Master/KneeTarget_L
+        weight: 1
+      - path: Armature/Master/KneeTarget_R
+        weight: 1
+      - path: Armature/Master/Spine4
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck/Head
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StickMan_Run
+      takeName: StickMan_Run
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ArmIK_L
+        weight: 1
+      - path: Armature/ArmIK_R
+        weight: 1
+      - path: Armature/LegIK_L
+        weight: 1
+      - path: Armature/LegIK_R
+        weight: 1
+      - path: Armature/Master
+        weight: 1
+      - path: Armature/Master/ElbowTarget_L
+        weight: 1
+      - path: Armature/Master/ElbowTarget_R
+        weight: 1
+      - path: Armature/Master/Hip_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Master/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Master/Hip_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Master/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Master/KneeTarget_L
+        weight: 1
+      - path: Armature/Master/KneeTarget_R
+        weight: 1
+      - path: Armature/Master/Spine4
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Neck/Head
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_L/Arm_L/Hand_L
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Master/Spine4/Spine3/Spine2/Spine1/Shoulder_R/Arm_R/Hand_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
